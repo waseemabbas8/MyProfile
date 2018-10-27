@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Bundle bundle=new Bundle();
+        //Bundle bundle=new Bundle();
         student.setRollNo(1025);
         String userName=getIntent().getStringExtra("UserName");
         Toast.makeText(this, ""+userName, Toast.LENGTH_SHORT).show();
